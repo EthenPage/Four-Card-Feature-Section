@@ -1,6 +1,7 @@
 # Four Card Feature Section Solution
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). 
+- Creation Date: 5 April 2022
 
 ## Table of contents
 
@@ -15,7 +16,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/four-card-feature-with-sassscss-rJYMvU5Qq)
 - Live Site URL: [Live](https://ethenpage.github.io/Four-Card-Feature-Section/)
 
 ## Author

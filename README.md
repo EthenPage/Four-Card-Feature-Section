@@ -11,7 +11,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ## Links
 

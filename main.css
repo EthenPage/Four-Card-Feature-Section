@@ -27,6 +27,9 @@ body {
   margin: 70px 10px;
   letter-spacing: 1px;
 }
+.feature-head p {
+  margin-top: 10px;
+}
 .feature-head .light {
   color: hsl(229deg, 6%, 66%);
   font-weight: 400;
@@ -71,4 +74,28 @@ body {
 
 .blue {
   border-top: 3px solid hsl(212deg, 86%, 64%);
+}
+
+@media screen and (min-width: 1024px) {
+  .feature {
+    max-width: 95%;
+    width: 1200px;
+    overflow: hidden;
+  }
+
+  .feature-head {
+    max-width: 600px;
+    margin: 80px auto;
+  }
+
+  .feature-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .feature-cards .card, .feature-cards .cards, .feature-cards .card-child {
+    width: 100%;
+    max-width: 375px;
+  }
 }

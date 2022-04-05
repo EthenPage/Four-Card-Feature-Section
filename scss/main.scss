@@ -46,6 +46,10 @@ body{
     margin: 70px 10px;
     letter-spacing: 1px;
 
+    p{
+        margin-top: 10px;
+    }
+
     .light{
         color: $Grayish-Blue;
         font-weight: 400;
@@ -92,4 +96,28 @@ body{
 
 .blue{
     border-top: 3px solid $Blue;
+}
+
+@media screen and (min-width: 1024px) {
+    .feature{
+        max-width: 95%;
+        width: 1200px;
+        overflow: hidden;   
+    }
+
+    .feature-head{
+        max-width: 600px;
+        margin: 80px auto;
+    }
+
+    .feature-cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        .card, .cards, .card-child{
+            width: 100%;
+            max-width: 375px;
+        }
+    }
 }
